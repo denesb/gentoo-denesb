@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-inherit multilib xfconf
+inherit multilib
 
 DESCRIPTION="A workspaces switcher plugin for the xfce4-panel and the i3 window manager"
 HOMEPAGE="https://github.com/denesb/xfce4-i3-workspaces-plugin"
@@ -18,7 +18,8 @@ RDEPEND=">=dev-libs/glib-2
 	x11-libs/gtk+:2
 	>=xfce-base/libxfce4ui-4.8
 	>=xfce-base/libxfce4util-4.8
-	>=xfce-base/xfce4-panel-4.8"
+	>=xfce-base/xfce4-panel-4.8
+	dev-libs/i3ipc-glib:0"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	sys-devel/gettext
