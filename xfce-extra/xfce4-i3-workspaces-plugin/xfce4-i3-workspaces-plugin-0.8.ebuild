@@ -7,7 +7,7 @@ inherit multilib xfconf
 
 DESCRIPTION="A workspaces switcher plugin for the xfce4-panel and the i3 window manager"
 HOMEPAGE="https://github.com/denesb/xfce4-i3-workspaces-plugin"
-SRC_URI="https://github.com/denesb/${PN}/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/denesb/${PN}/releases/download/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -24,12 +24,7 @@ DEPEND="${RDEPEND}
 	sys-devel/gettext
 	virtual/pkgconfig"
 
-S=${WORKDIR}/${PN}
-
 pkg_setup() {
-	XFCONF=(
-		--libexecdir="${EPREFIX}"/usr/$(get_libdir)
-		)
-
+	XFCONF=()
 	DOCS=( AUTHORS README )
 }
