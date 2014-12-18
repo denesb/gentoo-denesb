@@ -3,7 +3,6 @@
 # $Header: $
 
 EAPI=5
-inherit multilib
 
 DESCRIPTION="A workspaces switcher plugin for the xfce4-panel and the i3 window manager"
 HOMEPAGE="https://github.com/denesb/xfce4-i3-workspaces-plugin"

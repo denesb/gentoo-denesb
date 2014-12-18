@@ -3,7 +3,6 @@
 # $Header: $
 
 EAPI=5
-inherit multilib
 
 DESCRIPTION="A C library to control the i3 window manager"
 HOMEPAGE="https://github.com/acrisci/i3ipc-glib"
