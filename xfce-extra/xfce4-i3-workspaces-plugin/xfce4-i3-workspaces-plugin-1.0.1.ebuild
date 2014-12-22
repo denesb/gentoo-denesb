@@ -8,7 +8,7 @@ DESCRIPTION="A workspaces switcher plugin for the xfce4-panel and the i3 window 
 HOMEPAGE="https://github.com/denesb/xfce4-i3-workspaces-plugin"
 SRC_URI="https://github.com/denesb/${PN}/releases/download/${PV}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
